@@ -1,0 +1,53 @@
+body {
+  background-image: url("images/3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#form {
+  background-color: white;
+  width: 30%;
+  margin: 120px auto;
+  margin-bottom: 10px;
+  padding: 50px;
+  box-shadow: 10px 10px 5px rgb(20, 25, 19);
+  border-radius: 20px;
+  width: 300px;
+}
+#btn {
+  color: rgb(3, 2, 2);
+  background-color: rgb(1, 255, 6);
+  padding: 5px;
+  font-size: large;
+  border-radius: 5px;
+  float: left;
+  margin-bottom: 50px;
+  font-family: monospace;
+}
+h1 {
+  display: block;
+  font-size: 30px;
+  font-weight: lighter;
+  margin-top: 5px;
+  font-family: fantasy;
+}
+
+#user {
+  margin-top: 5px;
+  text-align: left;
+}
+
+#pass {
+  margin-top: 5px;
+  text-align: left;
+}
+#btn:hover {
+  opacity: 7;
+  color: rgb(171, 35, 35);
+}
+
+@media screen and (max-width: 700px) {
+  #form {
+    width: 65%;
+    padding: 40px;
+  }
+}
